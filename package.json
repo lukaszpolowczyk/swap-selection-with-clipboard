@@ -1,0 +1,54 @@
+{
+    "name": "swap-selection-with-clipboard",
+    "displayName": "Swap Selection with Clipboard",
+    "description": "",
+    "version": "1.1.2",
+    "author": {
+        "name": "LukaszPolowczyk",
+        "email": "dev.lukaszpolowczyk@gmail.com",
+        "url": "https://github.com/lukaszpolowczyk"
+    },
+    "publisher": "LukaszPolowczyk",
+    "repository": {
+        "url": "https://github.com/lukaszpolowczyk"
+    },
+    "engines": {
+        "vscode": "^1.29.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.swap"
+    ],
+    "main": "./extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.swap",
+                "title": "Swap Selection with Clipboard"
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "extension.swap",
+                "key": "alt+s",
+                "when": "editorTextFocus"
+            }
+        ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^3.1.4",
+        "vscode": "^1.1.25",
+        "eslint": "^4.11.0",
+        "@types/node": "^8.10.25",
+        "@types/mocha": "^2.2.42"
+    },
+    "dependencies": {
+        "clipboardy": "^1.2.3"
+    }
+}

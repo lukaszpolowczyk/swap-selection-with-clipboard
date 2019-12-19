@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2018",
+        "checkJs": true,  /* Typecheck .js files. */
+        "lib": [
+            "es2018"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
