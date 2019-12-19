@@ -10,7 +10,7 @@
     },
     "publisher": "LukaszPolowczyk",
     "repository": {
-        "url": "https://github.com/lukaszpolowczyk"
+        "url": "https://github.com/lukaszpolowczyk/swap-selection-with-clipboard"
     },
     "engines": {
         "vscode": "^1.29.0"
