@@ -35,6 +35,8 @@ Then, the extension will `automatically select pointed word` when you press `Alt
 
 ## Reason for creation. In what helps
 
+I wanted to read the VS Code extension API when creating a simple extension.
+
 When I want to swap two strings in one file - Swap Selected strings/Pointed words is helpful.
 
 Without this extension:
