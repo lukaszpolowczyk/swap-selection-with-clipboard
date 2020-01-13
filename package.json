@@ -2,7 +2,7 @@
     "name": "swap-selection-with-clipboard",
     "displayName": "Swap Selection with Clipboard",
     "description": "Swap the Clipboard string(previously copied string) with a Selected strings/a Pointed words in code or Swap two selected strings/poited words, with multiselection in code.",
-    "version": "1.1.3",
+    "version": "1.2.3",
     "author": {
         "name": "LukaszPolowczyk",
         "email": "dev.lukaszpolowczyk@gmail.com",
@@ -20,7 +20,8 @@
         "Formatters"
     ],
     "activationEvents": [
-        "onCommand:extension.swap"
+        "onCommand:extension.swap",
+        "*"
     ],
     "main": "./extension",
     "contributes": {

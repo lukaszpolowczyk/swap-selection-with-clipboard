@@ -37,7 +37,7 @@ Then, the extension will `automatically select pointed word` when you press `Alt
 
 I wanted to read the VS Code extension API when creating a simple extension.
 
-When I want to swap two strings in one file - Swap Selected strings/Pointed words is helpful.
+When I want to swap two strings in one file - Swap Selected strings/Pointed words is helpful. ([Why not other ready extensions?](#Similar-extensions))
 
 Without this extension:
 
@@ -87,6 +87,10 @@ Insignificant Bug:
 * A longer string is incorrectly marked when you quickly press Alt+S 3 times, while the strings are of different length.
 
 ## Release Notes
+
+### 1.2.3
+
+Activate an extension at the startUp.
 
 ### 1.1.0
 
