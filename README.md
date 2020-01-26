@@ -90,7 +90,7 @@ Insignificant Bug:
 
 ### 1.2.3
 
-Activate an extension at the startUp.
+Activate an extension at the startup.
 
 ### 1.1.0
 
