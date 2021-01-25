@@ -12,6 +12,11 @@
 			"label": "npm update",
 			"type": "shell",
 			"command": "npm update"
+		},
+		{
+			"label": "vsce package",
+			"type": "shell",
+			"command": "vsce package"
 		}
 	]
 }
