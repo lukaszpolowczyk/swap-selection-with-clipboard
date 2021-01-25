@@ -88,7 +88,7 @@ Insignificant Bug:
 
 ## Release Notes
 
-### 1.2.5
+### 1.2.6
 
 Update dependencies.
 
