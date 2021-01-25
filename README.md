@@ -88,6 +88,10 @@ Insignificant Bug:
 
 ## Release Notes
 
+### 1.2.4
+
+Update dependencies.
+
 ### 1.2.3
 
 Activate an extension at the startup.

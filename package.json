@@ -2,7 +2,7 @@
     "name": "swap-selection-with-clipboard",
     "displayName": "Swap Selection with Clipboard",
     "description": "Swap the Clipboard string(previously copied string) with a Selected strings/a Pointed words in code or Swap two selected strings/poited words, with multiselection in code.",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "author": {
         "name": "LukaszPolowczyk",
         "email": "dev.lukaszpolowczyk@gmail.com",
@@ -44,11 +44,11 @@
         "test": "node ./node_modules/vscode/bin/test"
     },
     "devDependencies": {
-        "typescript": "^3.1.4",
-        "vscode": "^1.1.25",
+        "@types/mocha": "^2.2.42",
+        "@types/node": "^8.10.66",
         "eslint": "^4.11.0",
-        "@types/node": "^8.10.25",
-        "@types/mocha": "^2.2.42"
+        "typescript": "^3.9.7",
+        "vscode": "^1.1.37"
     },
     "dependencies": {
         "clipboardy": "^1.2.3"
