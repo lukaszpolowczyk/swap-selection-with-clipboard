@@ -50,6 +50,6 @@
     },
     "dependencies": {
         "@types/vscode": "^1.52.0",
-        "clipboardy": "^1.2.3"
+        "clipboardy": "^4.0.0"
     }
 }
